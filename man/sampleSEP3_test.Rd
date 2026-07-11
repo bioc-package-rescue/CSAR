@@ -13,7 +13,7 @@
 }
 
 \examples{
-data(CSAR-dataset)
+data("CSAR-dataset")
 
 }
 \keyword{datasets}
