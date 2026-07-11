@@ -15,10 +15,11 @@ Description: Statistical tools for ChIP-seq data analysis. The package
         through random permutation.
 Depends: R (>= 2.15.0), S4Vectors, IRanges, Seqinfo, GenomicRanges
 Maintainer: Jose M Muino <jose.muino@live.com>
-Suggests: ShortRead, Biostrings
+Suggests: ShortRead, Biostrings, knitr, rmarkdown
 Imports: stats, utils
 License: Artistic-2.0
 LazyLoad: yes
 LazyData: yes
 biocViews: ChIPSeq, Transcription, Genetics
 PackageStatus: Deprecated
+VignetteBuilder: knitr
